@@ -104,12 +104,12 @@ func downloadMatchers(dest string) {
 }
 
 const banner = `
-     4     |         |         
------------+---------+-----------
-           |    O    |         
------------+---------+-----------
-           |         |    four   
+	     4     |         |         
+	-----------+---------+-----------
+	           |    O    |         
+	-----------+---------+-----------
+	           |         |    four   
 
-The 404 Page not found, tech enumeration toolkit
-    	- Developed by 0x9747 (inspired by 0xdf)
+The tech enumeration toolkit for 404 Not found pages.
+				- Developed by 0x9747 (inspired by 0xdf)
 `
