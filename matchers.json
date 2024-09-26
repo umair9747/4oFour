@@ -1,0 +1,160 @@
+[
+    {
+      "Tech": "Nginx",
+      "Matchers": [
+        "<center><h1>404 Not Found<\/h1><\/center>",
+        "nginx\/"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Apache httpd",
+      "Matchers": [
+        "<title>404 Not Found<\/title>",
+        "<p>The requested URL was not found on this server.<\/p>",
+        "<address>Apache\/"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "IIS",
+      "Matchers": [
+        "<title>404 - File or directory not found.<\/title>",
+        "Server Error<\/h1>",
+        "404 - File or directory not found.<\/h2>"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Flask",
+      "Matchers": [
+        "<title>404 Not Found<\/title>",
+        "<h1>Not Found<\/h1>",
+        "<p>The requested URL was not found on the server"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Django",
+      "Matchers": [
+        "<title>Not Found<\/title>",
+        "<h1>Not Found<\/h1>",
+        "<p>The requested resource was not found on this server"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "FastAPI",
+      "Matchers": [
+        "{\"detail\":\"Not Found\"}"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Express",
+      "Matchers": [
+        "<title>Error<\/title>",
+        "<pre>Cannot GET /somerandompathwhichmightnotexist<\/pre>"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Fiber",
+      "Matchers": [
+        "Cannot GET \/somerandompathwhichmightnotexist"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Gin",
+      "Matchers": [
+        "404 page not found"
+      ],
+      "FullMatch": true
+    },
+    {
+      "Tech": "PHP-FPM",
+      "Matchers": [
+        "File not found."
+      ],
+      "FullMatch": true
+    },
+    {
+      "Tech": "Laravel",
+      "Matchers": [
+        "<title>Not Found<\/title>",
+        "<body class=\"antialiased\">",
+        "404"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Symfony",
+      "Matchers": [
+        "<title>An Error Occurred: Not Found<\/title>",
+        "<h1>Oops! An Error Occurred<\/h1>",
+        "Something is broken",
+        "Please let us know what you were doing when this error occurred"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Tomcat",
+      "Matchers": [
+        "<head><title>HTTP Status 404 – Not Found<\/title>",
+        "Status Report",
+        "Apache Tomcat\/"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Spring Boot",
+      "Matchers": [
+        "Whitelabel Error Page",
+        "This application has no explicit mapping for \/error",
+        "There was an unexpected error"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Ruby on Rails",
+      "Matchers": [
+        "(404)<\/title>",
+        "The page you were looking for",
+        "You may have mistyped the address or the page may have moved",
+        "If you are the application owner check the logs for more information"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "Sinatra",
+      "Matchers": [
+        "<h2>Sinatra doesn’t know this ditty.<\/h2>",
+        "Try this:",
+        "get",
+        "somerandompathwhichmightnotexist",
+        "Hello World"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "ASP.NET Core",
+      "Matchers": [
+        "<title>The resource cannot be found.<\/title>",
+        "Server Error in",
+        "HTTP 404. The resource you are looking for",
+        "Requested URL"
+      ],
+      "FullMatch": false
+    },
+    {
+      "Tech": "SAP BusinessObjects BI",
+      "Matchers": [
+        "404 Missing Page",
+        "The page you requested is not available",
+        "If the problem still persists",
+        "SAP BusinessObjects"
+      ],
+      "FullMatch": false
+    }
+]  
