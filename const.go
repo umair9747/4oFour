@@ -17,7 +17,7 @@ type TechMatcher struct {
 
 type Result struct {
 	Target string   `json:"target"`
-	Stacks []string `json:"stacks"`
+	Stacks []string `json:"techs"`
 }
 
 type Output struct {
