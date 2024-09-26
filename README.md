@@ -7,9 +7,7 @@
   <a href="https://www.buymeacoffee.com/umair9747" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 21px !important;width: 94px !important;" ></a>
 </p>
 <hr>
-<img src="./tool.gif">
-<center><h1>⬇️</h1></center>
-<hr style="width:300px; height: 1px; margin: auto; margin-top: 20px;" />
+<img src="./tool.png">
 <br>
 <div id="description">
 
