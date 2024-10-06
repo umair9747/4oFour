@@ -77,7 +77,7 @@ type Output struct {
 ```
 ### Example Output:
 ```
-umair@root 4ofour % ./4ofour -scan https://aeondemos.co.jp/
+umair@root 4ofour % ./4ofour -scan http://127.0.0.1/
 
              4     |         |         
         -----------+---------+-----------
@@ -91,7 +91,7 @@ The tech enumeration toolkit for 404 Not found pages.
 {
   "results": [
     {
-      "target": "https://aeondemos.co.jp/somerandompathwhichmightnotexist",
+      "target": "http://127.0.0.1/somerandompathwhichmightnotexist",
       "techs": [
         "Laravel"
       ]
