@@ -11,8 +11,9 @@
 <br>
 <div id="description">
 <h2> Description </h2>
+4oFour is a command-line utility tool written in Go that helps enumerate technology stacks used by a target based on the unique 404 error pages they generate. By analyzing these error pages, 4oFour can identify key tech signatures and provide insights into the underlying infrastructure of a target system.
 
-
+The tool currently supports the detection of 18 distinct technology signatures, with plans to expand support to additional technologies in future updates. 4oFour is designed for fast, automated tech stack discovery, offering an efficient way to gain valuable information about a target's environment.
 </div>
 <hr style="height: 1px;">
 
