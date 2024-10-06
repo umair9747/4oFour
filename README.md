@@ -19,15 +19,14 @@ The tool currently supports the detection of 18 distinct technology signatures, 
 
 <div id="features">
 <h2> Features </h2>
-Features
 
-Tech Stack Enumeration
+<h4>Tech Stack Enumeration</h4>
 4oFour analyzes 404 error pages to identify the technologies running on a target system. With support for 18 distinct tech signatures, it provides a detailed overview of the stack based solely on error page characteristics.
 
-Automated Detection
+<h4>Automated Detection</h4>
 Simply input a target URL, and 4oFour will automatically scan for 404 error pages and detect recognizable patterns that reveal technology components, allowing for quick and efficient enumeration of tech stacks.
 
-Signature Expansion
+<h4>Signature Expansion</h4>
 4oFour's detection capabilities are regularly updated. While it currently supports 18 tech signatures, the tool is designed to evolve with more signatures added soon, ensuring broad coverage of common and emerging technologies.
 </div>
 
