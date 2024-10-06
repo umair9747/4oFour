@@ -104,6 +104,13 @@ The tech enumeration toolkit for 404 Not found pages.
 
 <hr style="height: 1px;">
 
+<div id="credits">
+<h2> Credits </h2>
+I would like to give the credits for the idea to <a href="https://x.com/0xdf_">0xdf_</a>! If you haven't checked his amazing work on this research yet, I highly suggest you to go through his <a href="https://0xdf.gitlab.io/cheatsheets/404">blog</a>.
+</div>
+
+<hr style="height: 1px;">
+
 <div id="contactme">
 <h2> Contact Me </h2>
 Have any suggestions, queries, feedback or just want to connect with me? Feel free to reach out using the below handles:
