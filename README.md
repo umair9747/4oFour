@@ -33,7 +33,14 @@ Simply input a target URL, and 4oFour will automatically scan for 404 error page
 <hr style="height: 1px;">
 
 <div id="installation">
+<h2> Installation </h2>
+You can install Seize by cloning the repository and building it manually using the following steps:
 
+```bash
+git clone https://github.com/umair9747/seize.git
+cd seize
+go build
+```
 </div>
 
 <hr style="height: 1px;">
