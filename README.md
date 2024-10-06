@@ -49,6 +49,57 @@ go build
 <div id="usage">
 <h2> Usage </h2>
 
+### Basic Usage
+
+```bash
+./4ofour -scan http://127.0.0.1/
+```
+
+### Flags
+
+- `-headers`: Comma-separated custom headers (e.g., 'User-Agent:Go,Accept:*/*')
+- `-scan`: Comma-separated list of targets or file containing targets
+- `-timeout`: Timeout for HTTP requests (default 10s)
+- `-workers`: Number of concurrent workers (default 5)
+
+### Tool Output
+The tool would produce a JSON output in the below format:
+```
+type Result struct {
+	Target string   `json:"target"`
+	Stacks []string `json:"techs"`
+}
+
+type Output struct {
+	Results []Result `json:"results"`
+	Errors  []string `json:"errors,omitempty"`
+}
+```
+### Example Output:
+```
+umair@ip-192-168-0-104 4ofour % ./4ofour -scan https://aeondemos.co.jp/
+
+             4     |         |         
+        -----------+---------+-----------
+                   |    O    |         
+        -----------+---------+-----------
+                   |         |    four   
+
+The tech enumeration toolkit for 404 Not found pages.
+                                - Developed by 0x9747 (inspired by 0xdf)
+
+{
+  "results": [
+    {
+      "target": "https://aeondemos.co.jp/somerandompathwhichmightnotexist",
+      "techs": [
+        "Laravel"
+      ]
+    }
+  ]
+}
+```
+
 </div>
 
 <hr style="height: 1px;">
