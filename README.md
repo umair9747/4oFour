@@ -77,7 +77,7 @@ type Output struct {
 ```
 ### Example Output:
 ```
-umair@ip-192-168-0-104 4ofour % ./4ofour -scan https://aeondemos.co.jp/
+umair@root 4ofour % ./4ofour -scan https://aeondemos.co.jp/
 
              4     |         |         
         -----------+---------+-----------
